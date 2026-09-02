@@ -48,7 +48,7 @@ export function ProtectedRoute({ children, requiredRole, fallback }: ProtectedRo
         }}>🔒</div>
         <h2 style={{ fontSize: 18, fontWeight: 600, margin: 0 }}>Access denied</h2>
         <p style={{ fontSize: 14, color: "#71717a", margin: 0, textAlign: "center", maxWidth: 320 }}>
-          You don't have permission to view this page. Contact your administrator if you believe this is an error.
+          You don&apos;t have permission to view this page. Contact your administrator if you believe this is an error.
         </p>
         <button
           onClick={() => router.push("/dashboard")}

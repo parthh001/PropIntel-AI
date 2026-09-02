@@ -173,7 +173,7 @@ export default function NotificationCenter() {
               <div style={{ padding: 48, textAlign: "center" }}>
                 <Bell size={32} color="rgba(244,246,250,0.3)" style={{ margin: "0 auto 12px", display: "block" }} />
                 <div style={{ fontWeight: 700 }}>No notifications</div>
-                <div style={{ fontSize: 13, color: "rgba(244,246,250,0.35)", marginTop: 4 }}>You're all caught up</div>
+                <div style={{ fontSize: 13, color: "rgba(244,246,250,0.35)", marginTop: 4 }}>You&apos;re all caught up</div>
               </div>
             ) : filtered.map((n, i) => (
               <div key={n.id} className={`notif-row fade-in ${n.status === "unread" ? "notif-unread" : ""}`} style={{ animationDelay: `${i * 0.03}s` }} onClick={() => markRead(n.id)}>

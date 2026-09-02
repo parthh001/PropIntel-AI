@@ -3,6 +3,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useAuth } from "@/lib/auth/auth-provider";
+import Link from "next/link";
 import {
   Building2, CheckCircle2, AlertTriangle, Clock, Scale, Newspaper,
   GitMerge, Bell, Plus, ArrowUpRight, ArrowDownRight,
@@ -106,7 +107,7 @@ export default function DashboardHome() {
           {greeting}, {user?.firstName || "User"}
         </h1>
         <p style={{ fontSize: 14, color: "#71717a", margin: "4px 0 0" }}>
-          Here's what's happening across your property portfolio today.
+          Here&apos;s what&apos;s happening across your property portfolio today.
         </p>
       </div>
 
@@ -179,7 +180,7 @@ export default function DashboardHome() {
         <div className="dcard fade-up" style={{ animationDelay: "0.5s" }}>
           <div className="dcard-head">
             <span style={{ fontWeight: 600, fontSize: 15 }}>Property status</span>
-            <a href="/properties" className="view-link">View all <ChevronRight size={14} /></a>
+            <Link href="/properties" className="view-link">View all <ChevronRight size={14} /></Link>
           </div>
           <div style={{ padding: 20 }}>
             {/* Stacked bar */}
