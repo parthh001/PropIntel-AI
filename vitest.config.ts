@@ -7,5 +7,10 @@ export default defineConfig({
     setupFiles: ["./src/lib/test/setup.ts"],
     testTimeout: 10000,
   },
-  resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+      "server-only": path.resolve(__dirname, "./__mocks__/server-only.ts"),
+    },
+  },
 });
