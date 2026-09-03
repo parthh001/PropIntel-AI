@@ -2,7 +2,7 @@
 
 # 🏠 PropIntel
 
-### AI-Powered Property Intelligence Platform
+### AI-Powered Property Intelligence Platform.
 
 A full-stack property intelligence platform for Indian land records — survey numbers, owner/court/government records, and risk matching — built with **Next.js**, **TypeScript**, and **Prisma**.
 
