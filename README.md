@@ -52,7 +52,7 @@ PropIntel combines property records, document upload + OCR, court/news/gov-recor
 
 ---
 
-## Tech Stac
+## Tech Stack
 
 | Category | Technologies |
 |----------|--------------|
